@@ -1,8 +1,9 @@
-# access-HUAWEI-CLOUD-DWS-through-FunctionGraph
+# access HUAWEI CLOUD GaussDB&(DWS) via FunctionGraph
 
 I'm trying to create HUAWEI CLOUD FunctionGraph function that runs queries on Data Warehouse - GaussDB(DWS). How can I do this?
 
 ## Resolution
+
 
 ### Prerequisites
 
@@ -11,6 +12,7 @@ Before you create a Lambda function, you must set up the following VPC:
 1. Create a [VPC with a private subnet](https://support.huaweicloud.com/intl/en-us/qs-vpc/en-us_topic_0017816228.html). 
 
 2. Create a private [Data Warehouse cluster](https://support.huaweicloud.com/intl/en-us/qs-vpc/en-us_topic_0017816228.html) selecting the VPC and subnet that you just created.
+
 
 
 ### Create your FunctionGraph function
@@ -31,11 +33,13 @@ Runtime: Enter your code environment. (The examples from this note are compatibl
 4. Choose Create function.
 
 
+
 ### Add Python code to your FunctionGraph function
 
 1. In the FunctionGraph console, choose Code.
 
 2. Paste the sample code (see "sample_query_gaussdb_dws.py") into the Code box.
+
 
 
 ### Post Configuration
